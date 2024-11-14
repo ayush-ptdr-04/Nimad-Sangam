@@ -1,0 +1,36 @@
+/* Basic styles for the HelpContactCard component */
+.card {
+  border: 1px solid #ddd; /* Card ka border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding for spacing */
+  margin: 10px; /* Margin between cards */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for card */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+.card h3 {
+  font-size: 1.5rem; /* Heading size */
+  color: #333; /* Dark text color */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.card p {
+  font-size: 1rem; /* Paragraph size */
+  color: #555; /* Lighter text color */
+  margin: 5px 0; /* Small space between paragraphs */
+}
+
+.card .phone {
+  font-size: 1.2rem; /* Larger font size for phone number */
+  color: #007bff; /* Blue color for phone number */
+  text-decoration: none; /* Remove underline */
+}
+
+.card .phone:hover {
+  text-decoration: underline; /* Underline on hover */
+}

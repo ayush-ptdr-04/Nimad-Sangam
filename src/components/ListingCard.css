@@ -1,0 +1,16 @@
+/* ListingCard.css */
+.card {
+  background-color: #d4f0fc;
+  border: 1px solid #89d6fb;
+  padding: 20px;
+  border-radius: 8px;
+  color: #02577a;
+}
+
+.card h2 {
+  color: #01303f;
+}
+
+.card p {
+  color: #02a9f7;
+}

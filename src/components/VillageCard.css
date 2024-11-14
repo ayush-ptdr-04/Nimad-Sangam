@@ -1,0 +1,27 @@
+/* VillageCard.css */
+.card {
+  background-color: #d4f0fc;
+  border: 1px solid #89d6fb;
+  padding: 20px;
+  border-radius: 8px;
+  color: #02577a;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  color: #01303f;
+}
+
+.card img {
+  object-fit: contain;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+}
